@@ -22,24 +22,29 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
         android:text="63133714"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="47dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="157dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
         android:text="Ấn vào"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="429dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="427dp" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="195dp"
-        android:layout_height="263dp"
+        android:layout_width="188dp"
+        android:layout_height="231dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/_80706664_324233010115218_4240574546920501186_n"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="118dp" />
+        tools:layout_editor_absoluteY="150dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
