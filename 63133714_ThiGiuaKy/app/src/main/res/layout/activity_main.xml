@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/Bai1"
+        android:text="Bài 1"
+        android:textSize="20dp"
+        android:textColor="#108BF4"
+        android:background="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp">
+
+    </Button>
+    <Button
+        android:id="@+id/Bai2"
+        android:text="Bài 2"
+        android:textSize="20dp"
+        android:textColor="#108BF4"
+        android:background="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp">
+
+    </Button>
+    <Button
+        android:id="@+id/Bai3"
+        android:text="Bài 3"
+        android:textSize="20dp"
+        android:textColor="#108BF4"
+        android:background="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp">
+
+    </Button>
+    <Button
+        android:id="@+id/Bai4"
+        android:text="Bài 4"
+        android:textSize="20dp"
+        android:textColor="#108BF4"
+        android:background="@color/purple_500"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp">
+
+    </Button>
+
+
+</LinearLayout>

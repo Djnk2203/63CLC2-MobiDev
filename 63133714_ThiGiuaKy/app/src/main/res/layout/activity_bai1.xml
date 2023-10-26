@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="center"
+    tools:context=".Bai1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/purple_200"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/chieucao"
+            android:layout_width="wrap_content"
+            android:text="Chiều cao:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Nhập vào đây "
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/purple_200"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/cannang"
+            android:layout_width="wrap_content"
+            android:text="Cân nặng:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Nhập vào đây "
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/BMI"
+        android:text="Tính BMI"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/purple_200"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/ketqua"
+            android:layout_width="wrap_content"
+            android:text="Kết quả:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Kết quả hiển thị"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
