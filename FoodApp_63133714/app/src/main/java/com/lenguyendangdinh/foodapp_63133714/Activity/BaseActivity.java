@@ -15,7 +15,7 @@ import com.lenguyendangdinh.foodapp_63133714.R;
 public class BaseActivity extends AppCompatActivity {
 FirebaseAuth mAuth;
 FirebaseDatabase database;
-    public String TAG; // sua lai
+    public String TAG;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
